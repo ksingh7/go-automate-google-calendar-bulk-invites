@@ -1,3 +1,10 @@
+# Google Calendar Automated Events
+This tool levarages Google Calendar API and automate calendar events creation to specified guests with a specified event start and end time.
+
+Use Case
+- Whenever you need to send out Calendar Invites to a group of users
+- Why not to use Google Calendar API instead of GUI
+
 ```
 $ go run main.go
 &{Getting a head start in career with Kubernetes 2022-04-23T11:00:00+05:30 2022-04-23T11:15:00+05:30 cnu1812@gmail.com}

@@ -8,7 +8,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	//"time"
 
 	"github.com/gocarina/gocsv"
 	"golang.org/x/oauth2"
@@ -98,43 +97,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Unable to retrieve Calendar client: %v", err)
 	}
-	//_ = srv
-	// t := time.Now().Format(time.RFC3339)
-	// events, err := srv.Events.List("primary").ShowDeleted(false).
-	// 	SingleEvents(true).TimeMin(t).MaxResults(10).OrderBy("startTime").Do()
-	// if err != nil {
-	// 	log.Fatalf("Unable to retrieve next ten of the user's events: %v", err)
-	// }
-	// fmt.Println("Upcoming events:")
-	// if len(events.Items) == 0 {
-	// 	fmt.Println("No upcoming events found.")
-	// } else {
-	// 	for _, item := range events.Items {
-	// 		date := item.Start.DateTime
-	// 		if date == "" {
-	// 			date = item.Start.Date
-	// 		}
-	// 		fmt.Printf("%v (%v)\n", item.Summary, date)
-	// 	}
-	// }
-	//event := &calendar.Event{
-	// 	Summary:     "Your KCD BLR Talk QA : Getting a headstart in your career with Kubernetes",
-	// 	Location:    "https://streamyard.com/dqhtmvzbkm",
-	// 	Description: "Dear Speaker,\nThanks for showing interest in KCD BLR 23 April Virtual Event. We have already received the recording of your talk, and we would be playing the recording on the allocated time slot.\nWith this calendar invite, we request you to join the event / your talk for QA at the end.\nUse the following link to join the streaming studio https://streamyard.com/dqhtmvzbkm\nThanks",
-	// 	Start: &calendar.EventDateTime{
-	// 		DateTime: "2022-04-23T11:00:00+05:30",
-	// 		TimeZone: "Asia/Kolkata",
-	// 	},
-	// 	End: &calendar.EventDateTime{
-	// 		DateTime: "2022-04-23T11:15:00+05:30",
-	// 		TimeZone: "Asia/Kolkata",
-	// 	},
-	// 	//Recurrence: []string{"RRULE:FREQ=DAILY;COUNT=2"},
-	// 	Attendees: []*calendar.EventAttendee{
-	// 		&calendar.EventAttendee{Email: "karasing@redhat.com"},
-	// 	},
-	// }
-
+	// Read CSV file
 	in, err := os.Open("talk_details.csv")
 	if err != nil {
 		panic(err)
