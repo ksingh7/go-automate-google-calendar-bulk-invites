@@ -1,4 +1,4 @@
-# Google Calendar Automated Events
+## Automate Google Calendar Bulk Invites : Powered by Golang
 This tool levarages Google Calendar API and automate calendar events creation to specified guests with a specified event start and end time.
 
 Use Case
