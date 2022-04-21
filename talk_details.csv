@@ -1,0 +1,13 @@
+﻿id,guest_email,talk_title,talk_start_time,talk_end_time
+1,cnu1812@gmail.com,Getting a head start in career with Kubernetes,2022-04-23T11:00:00+05:30,2022-04-23T11:15:00+05:30
+2,mehabhalodiya@gmail.com,"Running local Kubernetes clusters using minikube, kind and microk8s",2022-04-23T11:15:00+05:30,2022-04-23T11:30:00+05:30
+3,senthilrch@gmail.com,Orchestrating Cloud Native ML workflows in Kubernetes,2022-04-23T11:30:00+05:30,2022-04-23T12:00:00+05:30
+4,savita3020@gmail.com,Unleash CI/CD with Tekton and ArgoCD,2022-04-23T12:00:00+05:30,2022-04-23T12:30:00+05:30
+5,mitesh.iitroorkee@gmail.com,War Stories with Kubernetes in Production,2022-04-23T12:30:00+05:30,2022-04-23T13:00:00+05:30
+6,turjachaudhuri@gmail.com,Agile Architecture and NFR in a Cloud Native Design,2022-04-23T14:45:00+05:30,2022-04-23T15:00:00+05:30
+7,shwetha3793@gmail.com,Easy way to test e2e on k8s cluster,2022-04-23T15:00:00+05:30,2022-04-23T15:30:00+05:30
+8,rahul.sawra@infracloud.io,Introduction To Hierarchical Namespaces in Kubernetes,2022-04-23T15:30:00+05:30,2022-04-23T16:00:00+05:30
+9,ak6535@srmist.edu.in,Identity with Certificates in Kubernetes,2022-04-23T16:00:00+05:30,2022-04-23T16:30:00+05:30
+10,sonasingh46@gmail.com,Cluster API 101: How the APIs works?,2022-04-23T16:30:00+05:30,2022-04-23T17:00:00+05:30
+11,oshiagupta36@gmail.com,Kubectl Plugins,2022-04-23T17:00:00+05:30,2022-04-23T17:25:00+05:30
+12,saranya@chaosnative.com,Making Kubernetes Resilient with LitmusChaos,2022-04-23T17:25:00+05:30,2022-04-23T17:45:00+05:30
